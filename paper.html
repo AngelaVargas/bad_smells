@@ -18,15 +18,29 @@
   </div>
 
   <div class="slide">
+
+  <font color="red">Ángela, en vez de tartas, ¿podrías utilizar diagramas de barra (stack diagrams)? La tarta de TotalMastery for projects with bad smells parece que es errónea. Es mejor no utilizar tartas en artículos científicos; la info no se lee bien.</font>
+
     <p>
-      1. The effect ot bad smells is very important. In more than 97% of the total projects,  at least
-      one of them appears. In addition, projects that don't present any bad habit, have 0 o low total
-      Mastery.
+      In computer programming, a <i>bad smell</i> (or <i>code smell</i>) is any characteristic in the source code of a program that possibly indicates a deeper problem. Suryanarayana et al. define bad smells as quote;certain structures in the code that indicate violation of fundamental design principles and negatively impact design quality&quote; (Suryanarayana, 2014). 
+    </p>
+    <p>The bad smells that we can identify currently are:
+      <ol>
+        <li><b>Duplicate scripts</b>: Code is copy and pasted, sometimes with minor changes. Hinders the use of user-defined blocks and as such can be seen a limitation to the development of the abstraction skill.</li>
+        <li><b>Default names</b>: Objects are not given a meaningful name, but keep the default <i>SpriteN</i> name. It hinders interaction among objects, as using them in other objects becomes more difficult.</li>
+        <li><b>Dead code</b>: Code that is never being executed (usually because they do not have a starting condition). It may indicate missing functionality.</li>
+        <li><b>Attribute initialization</b>: <font color="red">¿Ángela?</font></li>
+        <li><b>Backdrop Naming</b>: <font color="red">¿Ángela?</font></li>
+      </ol>
+    </p>
+    <p>
+      1. The effect ot bad smells in the analyzed projects very important. More than 97% of the projects (considering all snapshots) have at least one bad smell. Of the small fraction of projects without bad smells, most have low scores of mastery (55.9% of them have 0 points).
     </p>
     <br>
     <img src="images/totalPercent.png" alt="Percent of bad smells">
     <img src="images/MasteryBadSmells.png" alt="Mastery for projects with bad smells">
   </div>
+  
 
   <div class="slide">
     <p>
@@ -39,8 +53,8 @@
 
   <div class="slide">
     <p>
-      3. The number of each bad smell is very low. The most frequent values for all of them are around
-      0 and 4.
+      3. The number of each bad smell is very low <font color="red">No entiendo qué quieres decir con esto</font>. The most frequent values for all of them are around
+      0 and 4. <font color="red">¿No hay proyectos con más de 4 bad smells?</font>
     </p>
     <br>
     <img src="images/NumInitializ.png" alt="Number of bad AttributeInitialization">
@@ -59,6 +73,11 @@
     <img src="images/BadSmellsProf.png" alt="Number of duplicated scripts">
   </div>
 
+   <p>
+     <ul>
+       <li>Suryanarayana, G., Samarthyam, G., & Sharma, T. (2014). Refactoring for software design smells: managing technical debt. Morgan Kaufmann.</li>
+     </ul>
+   </p>
 
 </body>
 </html>
