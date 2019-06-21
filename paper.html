@@ -18,19 +18,17 @@
   </div>
 
   <div class="slide">
-
-  <font color="red">Ángela, en vez de tartas, ¿podrías utilizar diagramas de barra (stack diagrams)? La tarta de TotalMastery for projects with bad smells parece que es errónea. Es mejor no utilizar tartas en artículos científicos; la info no se lee bien.</font>
-
     <p>
-      In computer programming, a <i>bad smell</i> (or <i>code smell</i>) is any characteristic in the source code of a program that possibly indicates a deeper problem. Suryanarayana et al. define bad smells as quote;certain structures in the code that indicate violation of fundamental design principles and negatively impact design quality&quote; (Suryanarayana, 2014). 
+      In computer programming, a <i>bad smell</i> (or <i>code smell</i>) is any characteristic in the source code of a program that possibly indicates a deeper problem. Suryanarayana et al. define bad smells as quote;certain structures in the code that indicate violation of fundamental design principles and negatively impact design quality&quote; (Suryanarayana, 2014).
     </p>
     <p>The bad smells that we can identify currently are:
       <ol>
         <li><b>Duplicate scripts</b>: Code is copy and pasted, sometimes with minor changes. Hinders the use of user-defined blocks and as such can be seen a limitation to the development of the abstraction skill.</li>
         <li><b>Default names</b>: Objects are not given a meaningful name, but keep the default <i>SpriteN</i> name. It hinders interaction among objects, as using them in other objects becomes more difficult.</li>
+        <li><b>Backdrop Naming</b>: Scenarios are not given a meaningful name, but keep the default <i>BackdropN</i> name. It hinders the use of several scenarios to reference them.</li>
         <li><b>Dead code</b>: Code that is never being executed (usually because they do not have a starting condition). It may indicate missing functionality.</li>
-        <li><b>Attribute initialization</b>: <font color="red">¿Ángela?</font></li>
-        <li><b>Backdrop Naming</b>: <font color="red">¿Ángela?</font></li>
+        <li><b>Attribute initialization</b>: Variables are not well initialized. It hinders the start of some objects, because their position, size, costume, etc are not correctly initialized.</li>
+
       </ol>
     </p>
     <p>
@@ -40,7 +38,7 @@
     <img src="images/totalPercent.png" alt="Percent of bad smells">
     <img src="images/MasteryBadSmells.png" alt="Mastery for projects with bad smells">
   </div>
-  
+projects le
 
   <div class="slide">
     <p>
@@ -53,8 +51,8 @@
 
   <div class="slide">
     <p>
-      3. The number of each bad smell is very low <font color="red">No entiendo qué quieres decir con esto</font>. The most frequent values for all of them are around
-      0 and 4. <font color="red">¿No hay proyectos con más de 4 bad smells?</font>
+      3. The most frequent values for each bad smell are low. There are projects with more than 10 duplicated scripts,
+      for example, but the 10 most frequent values are below.
     </p>
     <br>
     <img src="images/NumInitializ.png" alt="Number of bad AttributeInitialization">
